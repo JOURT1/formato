@@ -1,0 +1,1715 @@
+<dependency>
+    <groupId>androidx.activity</groupId>
+    <artifactId>activity</artifactId>
+    <version>1.10.1</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.activity</groupId>
+    <artifactId>activity-compose</artifactId>
+    <version>1.10.1</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.activity</groupId>
+    <artifactId>activity-ktx</artifactId>
+    <version>1.10.1</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.annotation</groupId>
+    <artifactId>annotation-iosarm64</artifactId>
+    <version>1.9.1</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.annotation</groupId>
+    <artifactId>annotation-iossimulatorarm64</artifactId>
+    <version>1.9.1</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.annotation</groupId>
+    <artifactId>annotation-iosx64</artifactId>
+    <version>1.9.1</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.appcompat</groupId>
+    <artifactId>appcompat</artifactId>
+    <version>1.7.1</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.appcompat</groupId>
+    <artifactId>appcompat-resources</artifactId>
+    <version>1.7.1</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.arch.core</groupId>
+    <artifactId>core-runtime</artifactId>
+    <version>2.2.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.camera</groupId>
+    <artifactId>camera-camera2</artifactId>
+    <version>1.4.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.camera</groupId>
+    <artifactId>camera-core</artifactId>
+    <version>1.4.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.camera</groupId>
+    <artifactId>camera-lifecycle</artifactId>
+    <version>1.4.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.camera</groupId>
+    <artifactId>camera-video</artifactId>
+    <version>1.4.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.camera</groupId>
+    <artifactId>camera-view</artifactId>
+    <version>1.4.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.collection</groupId>
+    <artifactId>collection</artifactId>
+    <version>1.5.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.collection</groupId>
+    <artifactId>collection-iosarm64</artifactId>
+    <version>1.5.0</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.collection</groupId>
+    <artifactId>collection-iossimulatorarm64</artifactId>
+    <version>1.5.0</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.collection</groupId>
+    <artifactId>collection-iosx64</artifactId>
+    <version>1.5.0</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.collection</groupId>
+    <artifactId>collection-jvm</artifactId>
+    <version>1.5.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.collection</groupId>
+    <artifactId>collection-ktx</artifactId>
+    <version>1.5.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.animation</groupId>
+    <artifactId>animation</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.animation</groupId>
+    <artifactId>animation-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.animation</groupId>
+    <artifactId>animation-core</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.animation</groupId>
+    <artifactId>animation-core-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.foundation</groupId>
+    <artifactId>foundation</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.foundation</groupId>
+    <artifactId>foundation-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.foundation</groupId>
+    <artifactId>foundation-layout</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.foundation</groupId>
+    <artifactId>foundation-layout-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.material</groupId>
+    <artifactId>material-icons-core</artifactId>
+    <version>1.7.6</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.material</groupId>
+    <artifactId>material-icons-core-android</artifactId>
+    <version>1.7.6</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.material</groupId>
+    <artifactId>material-icons-extended</artifactId>
+    <version>1.7.6</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.material</groupId>
+    <artifactId>material-icons-extended-android</artifactId>
+    <version>1.7.6</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.material</groupId>
+    <artifactId>material-ripple</artifactId>
+    <version>1.8.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.material</groupId>
+    <artifactId>material-ripple-android</artifactId>
+    <version>1.8.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.material3</groupId>
+    <artifactId>material3</artifactId>
+    <version>1.3.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.material3</groupId>
+    <artifactId>material3-android</artifactId>
+    <version>1.3.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.runtime</groupId>
+    <artifactId>runtime</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.runtime</groupId>
+    <artifactId>runtime-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.runtime</groupId>
+    <artifactId>runtime-annotation</artifactId>
+    <version>1.9.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.runtime</groupId>
+    <artifactId>runtime-annotation-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.runtime</groupId>
+    <artifactId>runtime-saveable</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.runtime</groupId>
+    <artifactId>runtime-saveable-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-geometry</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-geometry-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-graphics</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-graphics-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-test</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-test-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-test-junit4</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-test-junit4-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-text</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-text-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-tooling</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-tooling-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-tooling-data</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-tooling-data-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-tooling-preview</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-tooling-preview-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-unit</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-unit-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-util</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.compose.ui</groupId>
+    <artifactId>ui-util-android</artifactId>
+    <version>1.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.concurrent</groupId>
+    <artifactId>concurrent-futures-ktx</artifactId>
+    <version>1.1.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.core</groupId>
+    <artifactId>core</artifactId>
+    <version>1.17.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.core</groupId>
+    <artifactId>core-ktx</artifactId>
+    <version>1.17.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.core</groupId>
+    <artifactId>core-viewtree</artifactId>
+    <version>1.0.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.emoji2</groupId>
+    <artifactId>emoji2</artifactId>
+    <version>1.4.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.emoji2</groupId>
+    <artifactId>emoji2-views-helper</artifactId>
+    <version>1.4.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.lifecycle</groupId>
+    <artifactId>lifecycle-viewmodel-savedstate-android</artifactId>
+    <version>2.9.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.savedstate</groupId>
+    <artifactId>savedstate</artifactId>
+    <version>1.3.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.savedstate</groupId>
+    <artifactId>savedstate-android</artifactId>
+    <version>1.3.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.savedstate</groupId>
+    <artifactId>savedstate-compose</artifactId>
+    <version>1.3.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.savedstate</groupId>
+    <artifactId>savedstate-compose-android</artifactId>
+    <version>1.3.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.savedstate</groupId>
+    <artifactId>savedstate-ktx</artifactId>
+    <version>1.3.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.test.espresso</groupId>
+    <artifactId>espresso-core</artifactId>
+    <version>3.5.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.test.espresso</groupId>
+    <artifactId>espresso-idling-resource</artifactId>
+    <version>3.5.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.test.ext</groupId>
+    <artifactId>junit</artifactId>
+    <version>1.1.5</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.test.services</groupId>
+    <artifactId>storage</artifactId>
+    <version>1.4.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.test</groupId>
+    <artifactId>annotation</artifactId>
+    <version>1.0.1</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.test</groupId>
+    <artifactId>core</artifactId>
+    <version>1.5.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.test</groupId>
+    <artifactId>monitor</artifactId>
+    <version>1.6.1</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.test</groupId>
+    <artifactId>runner</artifactId>
+    <version>1.5.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.tracing</groupId>
+    <artifactId>tracing-ktx</artifactId>
+    <version>1.2.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.work</groupId>
+    <artifactId>work-runtime</artifactId>
+    <version>2.7.1</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>androidx.work</groupId>
+    <artifactId>work-runtime-ktx</artifactId>
+    <version>2.7.1</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.emulator</groupId>
+    <artifactId>proto</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-device-provider-ddmlib</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-device-provider-gradle</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-device-provider-profile</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-test-plugin-host-additional-test-output</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-test-plugin-host-apk-installer</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-test-plugin-host-coverage</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-test-plugin-host-device-info</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-test-plugin-host-device-info-proto</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-test-plugin-host-emulator-control</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-test-plugin-host-logcat</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-test-plugin-result-listener-gradle</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>android-test-plugin-result-listener-gradle-proto</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.tools.utp</groupId>
+    <artifactId>utp-common</artifactId>
+    <version>31.11.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.auto.service</groupId>
+    <artifactId>auto-service</artifactId>
+    <version>1.1.1</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.dagger</groupId>
+    <artifactId>dagger</artifactId>
+    <version>2.48</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.devtools.ksp</groupId>
+    <artifactId>symbol-processing</artifactId>
+    <version>2.1.21-2.0.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.devtools.ksp</groupId>
+    <artifactId>symbol-processing-api</artifactId>
+    <version>2.1.21-2.0.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.devtools.ksp</groupId>
+    <artifactId>symbol-processing-cmdline</artifactId>
+    <version>2.1.21-2.0.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.mlkit</groupId>
+    <artifactId>barcode-scanning</artifactId>
+    <version>17.3.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.protobuf</groupId>
+    <artifactId>protobuf-kotlin</artifactId>
+    <version>3.24.4</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.testing.platform</groupId>
+    <artifactId>android-device-provider-local</artifactId>
+    <version>0.0.9-alpha03</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.testing.platform</groupId>
+    <artifactId>android-driver-instrumentation</artifactId>
+    <version>0.0.9-alpha03</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.testing.platform</groupId>
+    <artifactId>android-test-plugin</artifactId>
+    <version>0.0.9-alpha03</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.testing.platform</groupId>
+    <artifactId>core</artifactId>
+    <version>0.0.9-alpha03</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.google.testing.platform</groupId>
+    <artifactId>launcher</artifactId>
+    <version>0.0.9-alpha03</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.squareup</groupId>
+    <artifactId>javawriter</artifactId>
+    <version>2.1.1</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>io.opencensus</groupId>
+    <artifactId>opencensus-api</artifactId>
+    <version>0.31.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>io.opencensus</groupId>
+    <artifactId>opencensus-proto</artifactId>
+    <version>0.2.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>network.chaintech</groupId>
+    <artifactId>cmp-image-pick-n-crop</artifactId>
+    <version>1.1.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>network.chaintech</groupId>
+    <artifactId>cmp-image-pick-n-crop-android</artifactId>
+    <version>1.1.2</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>network.chaintech</groupId>
+    <artifactId>cmp-image-pick-n-crop-iosarm64</artifactId>
+    <version>1.1.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>network.chaintech</groupId>
+    <artifactId>cmp-image-pick-n-crop-iossimulatorarm64</artifactId>
+    <version>1.1.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>network.chaintech</groupId>
+    <artifactId>cmp-image-pick-n-crop-iosx64</artifactId>
+    <version>1.1.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>network.chaintech</groupId>
+    <artifactId>qr-kit</artifactId>
+    <version>3.1.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>network.chaintech</groupId>
+    <artifactId>qr-kit-android</artifactId>
+    <version>3.1.3</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>network.chaintech</groupId>
+    <artifactId>qr-kit-iosarm64</artifactId>
+    <version>3.1.3</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>network.chaintech</groupId>
+    <artifactId>qr-kit-iossimulatorarm64</artifactId>
+    <version>3.1.3</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>network.chaintech</groupId>
+    <artifactId>qr-kit-iosx64</artifactId>
+    <version>3.1.3</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest-integration</artifactId>
+    <version>1.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest-library</artifactId>
+    <version>1.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.animation</groupId>
+    <artifactId>animation</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.animation</groupId>
+    <artifactId>animation-core</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.animation</groupId>
+    <artifactId>animation-core-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.animation</groupId>
+    <artifactId>animation-core-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.animation</groupId>
+    <artifactId>animation-core-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.animation</groupId>
+    <artifactId>animation-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.animation</groupId>
+    <artifactId>animation-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.animation</groupId>
+    <artifactId>animation-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.annotation-internal</groupId>
+    <artifactId>annotation</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.collection-internal</groupId>
+    <artifactId>collection</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.components</groupId>
+    <artifactId>components-resources</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.components</groupId>
+    <artifactId>components-resources-android</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.components</groupId>
+    <artifactId>components-resources-iosArm64</artifactId>
+    <version>1.8.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.components</groupId>
+    <artifactId>components-resources-iosSimulatorArm64</artifactId>
+    <version>1.8.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.components</groupId>
+    <artifactId>components-resources-iosX64</artifactId>
+    <version>1.8.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.components</groupId>
+    <artifactId>components-ui-tooling-preview</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.components</groupId>
+    <artifactId>components-ui-tooling-preview-android</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.components</groupId>
+    <artifactId>components-ui-tooling-preview-iosArm64</artifactId>
+    <version>1.8.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.components</groupId>
+    <artifactId>components-ui-tooling-preview-iosSimulatorArm64</artifactId>
+    <version>1.8.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.components</groupId>
+    <artifactId>components-ui-tooling-preview-iosX64</artifactId>
+    <version>1.8.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.foundation</groupId>
+    <artifactId>foundation</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.foundation</groupId>
+    <artifactId>foundation-layout</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.foundation</groupId>
+    <artifactId>foundation-layout-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.foundation</groupId>
+    <artifactId>foundation-layout-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.foundation</groupId>
+    <artifactId>foundation-layout-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.foundation</groupId>
+    <artifactId>foundation-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.foundation</groupId>
+    <artifactId>foundation-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.foundation</groupId>
+    <artifactId>foundation-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-icons-core</artifactId>
+    <version>1.7.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-icons-core-uikitarm64</artifactId>
+    <version>1.7.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-icons-core-uikitsimarm64</artifactId>
+    <version>1.7.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-icons-core-uikitx64</artifactId>
+    <version>1.7.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-icons-extended</artifactId>
+    <version>1.7.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-icons-extended-uikitarm64</artifactId>
+    <version>1.7.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-icons-extended-uikitsimarm64</artifactId>
+    <version>1.7.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-icons-extended-uikitx64</artifactId>
+    <version>1.7.3</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-ripple</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-ripple-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-ripple-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-ripple-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-uikitarm64</artifactId>
+    <version>1.7.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-uikitsimarm64</artifactId>
+    <version>1.7.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material</groupId>
+    <artifactId>material-uikitx64</artifactId>
+    <version>1.7.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material3</groupId>
+    <artifactId>material3</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material3</groupId>
+    <artifactId>material3-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material3</groupId>
+    <artifactId>material3-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.material3</groupId>
+    <artifactId>material3-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.runtime</groupId>
+    <artifactId>runtime</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.runtime</groupId>
+    <artifactId>runtime-saveable</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.runtime</groupId>
+    <artifactId>runtime-saveable-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.runtime</groupId>
+    <artifactId>runtime-saveable-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.runtime</groupId>
+    <artifactId>runtime-saveable-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.runtime</groupId>
+    <artifactId>runtime-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.runtime</groupId>
+    <artifactId>runtime-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.runtime</groupId>
+    <artifactId>runtime-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-backhandler</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-backhandler-android</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-backhandler-android-debug</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-backhandler-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-backhandler-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-backhandler-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-geometry</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-geometry-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-geometry-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-geometry-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-graphics</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-graphics-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-graphics-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-graphics-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-text</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-text-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-text-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-text-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-tooling</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-tooling-data</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-tooling-preview</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-uikit</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-uikit-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-uikit-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-uikit-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-unit</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-unit-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-unit-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-unit-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-util</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-util-uikitarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-util-uikitsimarm64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.compose.ui</groupId>
+    <artifactId>ui-util-uikitx64</artifactId>
+    <version>1.8.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-build-tools-api</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-build-tools-impl</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-compiler-embeddable</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-compiler-runner</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-compose-compiler-plugin-embeddable</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-daemon-client</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-daemon-embeddable</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-klib-commonizer-embeddable</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-native-prebuilt</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-scripting-common</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-scripting-compiler-embeddable</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-scripting-compiler-impl-embeddable</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-scripting-jvm</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-script-runtime</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-serialization-compiler-plugin-embeddable</artifactId>
+    <version>2.1.21</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-stdlib</artifactId>
+    <version>2.2.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-stdlib-common</artifactId>
+    <version>2.2.0</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlinx</groupId>
+    <artifactId>kotlinx-coroutines-test</artifactId>
+    <version>1.10.1</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.kotlinx</groupId>
+    <artifactId>kotlinx-coroutines-test-jvm</artifactId>
+    <version>1.10.1</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.skiko</groupId>
+    <artifactId>skiko</artifactId>
+    <version>0.9.4.2</version>
+    <type>jar</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.skiko</groupId>
+    <artifactId>skiko-iosarm64</artifactId>
+    <version>0.9.4.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.skiko</groupId>
+    <artifactId>skiko-iossimulatorarm64</artifactId>
+    <version>0.9.4.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>org.jetbrains.skiko</groupId>
+    <artifactId>skiko-iosx64</artifactId>
+    <version>0.9.4.2</version>
+    <type>klib</type>
+</dependency>
+
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>2.0.16</version>
+    <type>jar</type>
+</dependency>
+
