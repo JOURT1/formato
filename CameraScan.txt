@@ -1,0 +1,221 @@
+package com.produbanco.devbancamovil.ui.screens.camerascanner
+
+import android.Manifest
+import android.content.pm.PackageManager
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.camera.core.Camera
+import androidx.camera.core.CameraSelector
+import androidx.camera.core.Preview
+import androidx.camera.lifecycle.ProcessCameraProvider
+import androidx.camera.view.PreviewView
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.core.content.ContextCompat
+import androidx.navigation.NavHostController
+
+/**
+ * @param onBack       acción para el botón de volver (←)
+ * @param onHelp       acción para el texto “Ayuda”
+ * @param useCameraPreview si es true usa CameraX Preview, si es false muestra un placeholder
+ */
+@Composable
+fun CameraScanScreen(
+    navController: NavHostController? = null,
+    onBack: (() -> Unit)? = null,
+    onHelp: (() -> Unit)? = null,
+    useCameraPreview: Boolean = true
+) {
+    val context = LocalContext.current
+    val lifecycleOwner = LocalLifecycleOwner.current
+
+    // --- Permisos cámara ---
+    var hasCameraPermission by remember { mutableStateOf(false) }
+    val permissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.RequestPermission()
+    ) { granted -> hasCameraPermission = granted }
+
+    LaunchedEffect(Unit) {
+        hasCameraPermission =
+            ContextCompat.checkSelfPermission(context, Manifest.permission.CAMERA) ==
+                    PackageManager.PERMISSION_GRANTED
+        if (!hasCameraPermission && useCameraPreview) {
+            permissionLauncher.launch(Manifest.permission.CAMERA)
+        }
+    }
+
+    // --- CameraX ---
+    val cameraProviderFuture = remember { ProcessCameraProvider.getInstance(context) }
+    var camera: Camera? by remember { mutableStateOf(null) }
+
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.Black) // fondo por si el preview tarda
+    ) {
+        // 1) PREVIEW A PANTALLA COMPLETA (o placeholder)
+        if (useCameraPreview && hasCameraPermission) {
+            AndroidView(
+                modifier = Modifier.fillMaxSize(),
+                factory = { ctx ->
+                    val previewView = PreviewView(ctx).apply {
+                        implementationMode = PreviewView.ImplementationMode.PERFORMANCE
+                        scaleType = PreviewView.ScaleType.FILL_CENTER
+                    }
+                    val cameraProvider = cameraProviderFuture.get()
+                    val preview = Preview.Builder().build().also {
+                        it.setSurfaceProvider(previewView.surfaceProvider)
+                    }
+                    val selector = CameraSelector.Builder()
+                        .requireLensFacing(CameraSelector.LENS_FACING_BACK)
+                        .build()
+                    cameraProvider.unbindAll()
+                    camera = cameraProvider.bindToLifecycle(
+                        lifecycleOwner, selector, preview
+                    )
+                    previewView
+                }
+            )
+        } else {
+            // Placeholder ocupando todo el fondo (si no quieres aún el preview real)
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(Color(0xFF2C2C2C))
+            )
+        }
+
+        // 2) OVERLAY SUPERIOR NEGRO (#111111) CON 60% (0x99) DE OPACIDAD
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(Color(0x99111111)) // ARGB: 0x99 + 0x11 11 11
+                .padding(top = 24.dp, start = 16.dp, end = 16.dp, bottom = 12.dp)
+                .align(Alignment.TopCenter)
+        ) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(
+                    text = "←",
+                    fontSize = 26.sp,
+                    color = Color.White,
+                    modifier = Modifier.clickable {
+                        onBack?.invoke() ?: navController?.popBackStack()
+                    }
+                )
+                Text(
+                    text = "Ayuda",
+                    fontSize = 16.sp,
+                    color = Color.White,
+                    modifier = Modifier.clickable { onHelp?.invoke() }
+                )
+            }
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = "Acerca tu teléfono para escanear el QR",
+                color = Color.White,
+                fontSize = 16.sp,
+                textAlign = TextAlign.Center,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(top = 8.dp, bottom = 8.dp)
+                    .align(Alignment.CenterHorizontally)
+            )
+        }
+
+        // 3) BOTÓN “ILUMINAR” BLANCO CON 40% (0x66FFFFFF) SOBRE LA CÁMARA
+        Column(
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 180.dp), // posición similar al mock
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Box(
+                modifier = Modifier
+                    .background(Color(0x66FFFFFF), RoundedCornerShape(12.dp))
+                    .clickable {
+                        // Torch/linterna: alterna si hay flash
+                        val hasFlash = camera?.cameraInfo?.hasFlashUnit() ?: false
+                        if (hasFlash) {
+                            // Podrías llevar un estado para on/off si quieres
+                            camera?.cameraControl?.enableTorch(true) // enciende (demo)
+                            // camera?.cameraControl?.enableTorch(false) // apaga
+                        }
+                    }
+                    .padding(horizontal = 24.dp, vertical = 10.dp)
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(
+                        text = "\uD83D\uDD26", // ícono linterna sencillo
+                        fontSize = 16.sp,
+                        color = Color.Black
+                    )
+                    Spacer(modifier = Modifier.width(6.dp))
+                    Text(
+                        text = "Iluminar",
+                        fontSize = 14.sp,
+                        color = Color.Black
+                    )
+                }
+            }
+        }
+
+        // 4) FOOTER BLANCO CON BOTONES (ESQUINAS REDONDEADAS)
+        Surface(
+            tonalElevation = 3.dp,
+            shadowElevation = 8.dp,
+            color = Color.White,
+            shape = RoundedCornerShape(topStart = 22.dp, topEnd = 22.dp),
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(130.dp)
+                .align(Alignment.BottomCenter)
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(10.dp),
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Button(
+                    onClick = { /* TODO: nada por ahora */ },
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(12.dp),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = Color(0xFF0B7D3C) // verde seleccionado
+                    )
+                ) {
+                    Text("Escanear", color = Color.White)
+                }
+
+                OutlinedButton(
+                    onClick = { /* TODO: Mi código QR */ },
+                    modifier = Modifier.weight(1f),
+                    shape = RoundedCornerShape(12.dp),
+                    colors = ButtonDefaults.outlinedButtonColors(
+                        contentColor = Color(0xFF9E9E9E)
+                    )
+                ) {
+                    Text("Mi código QR")
+                }
+            }
+        }
+    }
+}
